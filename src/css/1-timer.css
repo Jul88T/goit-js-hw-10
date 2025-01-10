@@ -1,0 +1,78 @@
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Загальний фон */
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Таймер */
+.timer {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Поля для відображення часу */
+.field {
+  text-align: center;
+}
+
+.value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+/* Кнопка "Start" */
+button {
+  padding: 12px 25px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:enabled {
+  background-color: #45a049;
+}
+
+/* Інпут */
+#datetime-picker {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  outline: none;
+}
+
+#datetime-picker:focus {
+  border-color: #4caf50;
+}
